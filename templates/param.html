@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post reload sample</title>
+</head>
+<body>
+    method is {{exec_method}}
+    {% if exec_method == 'POST' %}
+        <p>再読み込みするとフォームの再送信を行うメッセージが表示されるはず</p>
+    {% elif exec_method == 'GET' %}
+        <p>再読み込みしても何もメッセージが表示されないはず</p>
+    {% endif %}
+</body>
+</html>
