@@ -51,7 +51,7 @@ run_server.bat
 
 5. サーバー起動メッセージのURLをブラウザで開く
 
-下記例であれば「http://127.0.0.1:5000」
+下記例であれば「 http://127.0.0.1:5000 」
 ```
 (env_fgp) naokikkc@MacBookAir flask_getpost % ./run_server.sh 
  * Serving Flask app 'main'
